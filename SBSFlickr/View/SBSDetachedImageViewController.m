@@ -27,6 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = UIColor.blackColor;
     [self setupDetachedImageView];
     [self setupCloseButton];
     [self setupFilterButtons];

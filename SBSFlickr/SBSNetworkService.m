@@ -63,7 +63,6 @@
     
     NSURLSession *session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
     NSURLSessionDataTask *sessionDataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-        [SBSNetworkService setNetworkActivityIndicatorVisible:NO];
         NSDictionary *temp = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
         NSMutableArray<SBSFlickrPhotoModel *> *tempArray = [NSMutableArray new];
         for (id photo in temp[@"photos"][@"photo"]) {
@@ -87,19 +86,6 @@
 {
     self.keyString = keyString;
     [self getFlickrPhoto:YES];
-}
-
-+ (void)setNetworkActivityIndicatorVisible:(BOOL)setVisible {
-    static NSUInteger NetworkIndicatorCount = 0;
-    
-    if (setVisible) {
-        NetworkIndicatorCount++;
-    } else {
-        NetworkIndicatorCount--;
-    }
-    dispatch_async(dispatch_get_main_queue(), ^{
-        [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:(NetworkIndicatorCount > 0)];
-    });
 }
 @end
 

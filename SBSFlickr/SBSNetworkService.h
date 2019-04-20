@@ -23,7 +23,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *keyString;
 @property (nonatomic, strong) NSMutableArray<SBSFlickrPhotoModel *> *flickrPhotosArray;
 
-+ (void)setNetworkActivityIndicatorVisible:(BOOL)setVisible;
 -(void)startImageLoading:(NSString*)keyString;
 -(void)getFlickrPhoto:(BOOL)isSearch;
 - (void)getFlickrPhotoWithKeyString:(NSString *)keyString isSearch:(BOOL)isSearch;
