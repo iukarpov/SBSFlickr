@@ -8,26 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		783F7DA32263975C004C37BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 783F7DA22263975C004C37BE /* AppDelegate.m */; };
-		783F7DA62263975C004C37BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783F7DA52263975C004C37BE /* ViewController.m */; };
-		783F7DA92263975C004C37BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783F7DA72263975C004C37BE /* Main.storyboard */; };
+		783F7DA62263975C004C37BE /* SBSFlickrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783F7DA52263975C004C37BE /* SBSFlickrViewController.m */; };
 		783F7DAC2263975C004C37BE /* SBSFlickr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 783F7DAA2263975C004C37BE /* SBSFlickr.xcdatamodeld */; };
 		783F7DAE2263975D004C37BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 783F7DAD2263975D004C37BE /* Assets.xcassets */; };
 		783F7DB12263975D004C37BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783F7DAF2263975D004C37BE /* LaunchScreen.storyboard */; };
 		783F7DB42263975D004C37BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 783F7DB32263975D004C37BE /* main.m */; };
+		783F7DC12263D76A004C37BE /* SBSFlickrConstants.h in Sources */ = {isa = PBXBuildFile; fileRef = 783F7DC02263D76A004C37BE /* SBSFlickrConstants.h */; };
+		783F7DC42263DF8C004C37BE /* SBSFlickrCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 783F7DC32263DF8C004C37BE /* SBSFlickrCollectionViewCell.m */; };
+		789BE150226A215A00A99BDB /* SBSNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 789BE14F226A215A00A99BDB /* SBSNetworkService.m */; };
+		789BE162226A463700A99BDB /* SBSFlickrPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 789BE161226A463700A99BDB /* SBSFlickrPhotoModel.m */; };
+		789BE165226A6B2000A99BDB /* SBSDetachedImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789BE164226A6B2000A99BDB /* SBSDetachedImageViewController.m */; };
+		789BE168226A87FD00A99BDB /* SBSFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 789BE167226A87FD00A99BDB /* SBSFilters.m */; };
+		789BE194226B799100A99BDB /* SBSNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 789BE193226B799100A99BDB /* SBSNotification.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		783F7D9E2263975B004C37BE /* SBSFlickr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBSFlickr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		783F7DA12263975C004C37BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		783F7DA22263975C004C37BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		783F7DA42263975C004C37BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		783F7DA52263975C004C37BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		783F7DA82263975C004C37BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		783F7DA42263975C004C37BE /* SBSFlickrViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSFlickrViewController.h; sourceTree = "<group>"; };
+		783F7DA52263975C004C37BE /* SBSFlickrViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBSFlickrViewController.m; sourceTree = "<group>"; };
 		783F7DAB2263975C004C37BE /* SBSFlickr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SBSFlickr.xcdatamodel; sourceTree = "<group>"; };
 		783F7DAD2263975D004C37BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		783F7DB02263975D004C37BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		783F7DB22263975D004C37BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		783F7DB32263975D004C37BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		783F7DC02263D76A004C37BE /* SBSFlickrConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSFlickrConstants.h; sourceTree = "<group>"; };
+		783F7DC22263DF8C004C37BE /* SBSFlickrCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSFlickrCollectionViewCell.h; sourceTree = "<group>"; };
+		783F7DC32263DF8C004C37BE /* SBSFlickrCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBSFlickrCollectionViewCell.m; sourceTree = "<group>"; };
+		789BE148226A201600A99BDB /* SBSNetworkOutputProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSNetworkOutputProtocol.h; sourceTree = "<group>"; };
+		789BE14E226A215A00A99BDB /* SBSNetworkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSNetworkService.h; sourceTree = "<group>"; };
+		789BE14F226A215A00A99BDB /* SBSNetworkService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBSNetworkService.m; sourceTree = "<group>"; };
+		789BE160226A463700A99BDB /* SBSFlickrPhotoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSFlickrPhotoModel.h; sourceTree = "<group>"; };
+		789BE161226A463700A99BDB /* SBSFlickrPhotoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBSFlickrPhotoModel.m; sourceTree = "<group>"; };
+		789BE163226A6B2000A99BDB /* SBSDetachedImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSDetachedImageViewController.h; sourceTree = "<group>"; };
+		789BE164226A6B2000A99BDB /* SBSDetachedImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBSDetachedImageViewController.m; sourceTree = "<group>"; };
+		789BE166226A87FD00A99BDB /* SBSFilters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSFilters.h; sourceTree = "<group>"; };
+		789BE167226A87FD00A99BDB /* SBSFilters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBSFilters.m; sourceTree = "<group>"; };
+		789BE192226B799100A99BDB /* SBSNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSNotification.h; sourceTree = "<group>"; };
+		789BE193226B799100A99BDB /* SBSNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBSNotification.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,18 +79,63 @@
 		783F7DA02263975C004C37BE /* SBSFlickr */ = {
 			isa = PBXGroup;
 			children = (
+				789BE191226B797500A99BDB /* Services */,
+				789BE13B226A116C00A99BDB /* Protocols */,
+				783F7DBE22639C18004C37BE /* View */,
+				783F7DBD22639C0D004C37BE /* Model */,
 				783F7DA12263975C004C37BE /* AppDelegate.h */,
 				783F7DA22263975C004C37BE /* AppDelegate.m */,
-				783F7DA42263975C004C37BE /* ViewController.h */,
-				783F7DA52263975C004C37BE /* ViewController.m */,
-				783F7DA72263975C004C37BE /* Main.storyboard */,
 				783F7DAD2263975D004C37BE /* Assets.xcassets */,
 				783F7DAF2263975D004C37BE /* LaunchScreen.storyboard */,
 				783F7DB22263975D004C37BE /* Info.plist */,
 				783F7DB32263975D004C37BE /* main.m */,
 				783F7DAA2263975C004C37BE /* SBSFlickr.xcdatamodeld */,
+				783F7DC02263D76A004C37BE /* SBSFlickrConstants.h */,
 			);
 			path = SBSFlickr;
+			sourceTree = "<group>";
+		};
+		783F7DBD22639C0D004C37BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				789BE14E226A215A00A99BDB /* SBSNetworkService.h */,
+				789BE14F226A215A00A99BDB /* SBSNetworkService.m */,
+				789BE160226A463700A99BDB /* SBSFlickrPhotoModel.h */,
+				789BE161226A463700A99BDB /* SBSFlickrPhotoModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		783F7DBE22639C18004C37BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				783F7DA42263975C004C37BE /* SBSFlickrViewController.h */,
+				783F7DA52263975C004C37BE /* SBSFlickrViewController.m */,
+				783F7DC22263DF8C004C37BE /* SBSFlickrCollectionViewCell.h */,
+				783F7DC32263DF8C004C37BE /* SBSFlickrCollectionViewCell.m */,
+				789BE163226A6B2000A99BDB /* SBSDetachedImageViewController.h */,
+				789BE164226A6B2000A99BDB /* SBSDetachedImageViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		789BE13B226A116C00A99BDB /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				789BE148226A201600A99BDB /* SBSNetworkOutputProtocol.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		789BE191226B797500A99BDB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				789BE166226A87FD00A99BDB /* SBSFilters.h */,
+				789BE167226A87FD00A99BDB /* SBSFilters.m */,
+				789BE192226B799100A99BDB /* SBSNotification.h */,
+				789BE193226B799100A99BDB /* SBSNotification.m */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +197,6 @@
 			files = (
 				783F7DB12263975D004C37BE /* LaunchScreen.storyboard in Resources */,
 				783F7DAE2263975D004C37BE /* Assets.xcassets in Resources */,
-				783F7DA92263975C004C37BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,24 +207,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				783F7DA62263975C004C37BE /* ViewController.m in Sources */,
+				789BE168226A87FD00A99BDB /* SBSFilters.m in Sources */,
+				789BE150226A215A00A99BDB /* SBSNetworkService.m in Sources */,
+				783F7DC42263DF8C004C37BE /* SBSFlickrCollectionViewCell.m in Sources */,
+				783F7DA62263975C004C37BE /* SBSFlickrViewController.m in Sources */,
 				783F7DAC2263975C004C37BE /* SBSFlickr.xcdatamodeld in Sources */,
+				783F7DC12263D76A004C37BE /* SBSFlickrConstants.h in Sources */,
 				783F7DB42263975D004C37BE /* main.m in Sources */,
+				789BE162226A463700A99BDB /* SBSFlickrPhotoModel.m in Sources */,
 				783F7DA32263975C004C37BE /* AppDelegate.m in Sources */,
+				789BE194226B799100A99BDB /* SBSNotification.m in Sources */,
+				789BE165226A6B2000A99BDB /* SBSDetachedImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		783F7DA72263975C004C37BE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				783F7DA82263975C004C37BE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		783F7DAF2263975D004C37BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
